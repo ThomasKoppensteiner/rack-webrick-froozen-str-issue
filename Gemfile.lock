@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.3.0)
+    net-http-persistent (4.0.1)
+      connection_pool (~> 2.2)
+    rack (2.2.6.2)
+    webrick (1.8.0)
+
+PLATFORMS
+  x86_64-darwin-22
+
+DEPENDENCIES
+  net-http-persistent
+  rack (~> 2.2.6)
+  webrick (= 1.8.0)
+
+BUNDLED WITH
+   2.4.4

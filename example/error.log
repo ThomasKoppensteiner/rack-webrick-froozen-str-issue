@@ -1,0 +1,21 @@
+[2023-01-27 11:49:15] DEBUG close: ::1:52278
+[2023-01-27 11:49:15] DEBUG accept: ::1:52279
+[2023-01-27 11:49:15] DEBUG Rack::Handler::WEBrick is invoked.
+[2023-01-27 11:49:15] ERROR FrozenError: can't modify frozen String: ""
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/rack-2.2.6.2/lib/rack/handler/webrick.rb:120:in `block in service'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/rack-2.2.6.2/lib/rack/handler/webrick.rb:119:in `each'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/rack-2.2.6.2/lib/rack/handler/webrick.rb:119:in `service'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/webrick-1.8.0/lib/webrick/httpserver.rb:140:in `service'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/webrick-1.8.0/lib/webrick/httpserver.rb:96:in `run'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/webrick-1.8.0/lib/webrick/server.rb:310:in `block in start_thread'
+
+[2023-01-27 11:49:15] DEBUG close: ::1:52279
+[2023-01-27 11:49:16] DEBUG accept: ::1:52280
+[2023-01-27 11:49:16] DEBUG Rack::Handler::WEBrick is invoked.
+[2023-01-27 11:49:16] ERROR FrozenError: can't modify frozen String: ""
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/rack-2.2.6.2/lib/rack/handler/webrick.rb:120:in `block in service'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/rack-2.2.6.2/lib/rack/handler/webrick.rb:119:in `each'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/rack-2.2.6.2/lib/rack/handler/webrick.rb:119:in `service'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/webrick-1.8.0/lib/webrick/httpserver.rb:140:in `service'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/webrick-1.8.0/lib/webrick/httpserver.rb:96:in `run'
+	/Users/developer/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/webrick-1.8.0/lib/webrick/server.rb:310:in `block in start_thread'
